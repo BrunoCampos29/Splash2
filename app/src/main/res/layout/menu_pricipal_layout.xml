@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,19 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".MenuPricipalActivity">
 
-    <TextView
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OI"/>
-
-    <Button
-        android:id="@+id/cadastroBTN"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
         android:text="Cadastrar Estudo"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="120dp"/>
+
+        />
 
 
 
-</LinearLayout>
+</RelativeLayout>

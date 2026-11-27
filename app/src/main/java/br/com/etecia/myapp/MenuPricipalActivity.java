@@ -1,6 +1,8 @@
 package br.com.etecia.myapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -9,12 +11,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MenuPricipalActivity extends AppCompatActivity {
+import com.google.android.material.button.MaterialButton;
 
+public class MenuPricipalActivity extends AppCompatActivity {
+    MaterialButton btnCadastrar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
 
 
         super.onCreate(savedInstanceState);
@@ -26,8 +29,16 @@ public class MenuPricipalActivity extends AppCompatActivity {
             return insets;
         });
 
+        btnCadastrar = findViewById(R.id.btnCadastrar);
+
+        btnCadastrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), CadastroDeEstudoActivity.class));
+                finish();
 
 
-
+            }
+        });
     }
 }
