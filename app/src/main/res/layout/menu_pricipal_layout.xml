@@ -14,7 +14,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cadastrar Estudo"
+        android:layout_centerHorizontal="true"
+        />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar Estudos"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnCadastrar"
         />
 
 
