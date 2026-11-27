@@ -26,6 +26,51 @@
         android:layout_below="@+id/btnCadastrar"
         />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil do Estudante"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnConsultar"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEstatisticas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estatisticas"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnPerfil"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAjuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajuda"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnEstatisticas"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnAjuda"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnSobre"
+        />
+
 
 
 </RelativeLayout>
